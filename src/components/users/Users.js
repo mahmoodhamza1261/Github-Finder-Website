@@ -16,10 +16,10 @@ const Users = ({ users, loading }) => {
 	}
 };
 
-Users.propTypes={
-  user:PropTypes.array.isRequired,
-  loading:PropTypes.bool.isRequired
-}
+Users.propTypes = {
+	user: PropTypes.array.isRequired,
+	loading: PropTypes.bool.isRequired,
+};
 const userStyle = {
 	display: 'grid',
 	gridTemplateColumns: 'repeat(3,1fr)',
